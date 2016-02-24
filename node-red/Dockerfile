@@ -1,6 +1,6 @@
 FROM node:0.12
 
-MAINTAINER cpswan
+MAINTAINER markrey
 
 # install node-red
 RUN npm install -g node-red
