@@ -4,6 +4,9 @@ MAINTAINER cpswan
 
 # install node-red
 RUN npm install -g node-red
+RUN npm install -g node-red-contrib-parallel-iterator
+RUN npm install -g node-red-contrib-flow-combine
+RUN npm install -g node-red-contrib-input-split
 
 # expose port
 EXPOSE 1880
